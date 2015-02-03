@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Fox Ears Postmortem (GGJ15)"
-categories: Postmortem, Games, GGJ15
 excerpt: "My account of our Global Game Jam 15 game, Fox Ears."
 tags: [ggj15, ggj, game, jam, fox, ears, postmortem]
 image:
@@ -10,6 +9,12 @@ date: 2015-01-28T16:18:13-05:00
 ---
 
 Last weekend was Global Game Jam 15, and since Toronto has a wonderful dev scene, jams are always a great experience. On top of that, I find jams are always really creatively cathartic, and despite usually being intense and draining, usually lead to me feeling way more productive afterwards. So needless to say, I was pretty excited for this weekend.
+
+Before we dive in, you can see a video of the game in action <a href="https://www.youtube.com/watch?v=97rNvLYpQCQ">here</a>, and you can download it on our <a href="http://angrysquidgames.itch.io/fox-ears">itch.io page</a>.
+
+<figure>
+	<a href="../images/foxears/Jam4.png"><img src="../images/foxears/Jam4.png"></a>
+</figure>
 
 ### The Team
 
@@ -25,11 +30,15 @@ We wanted to make a game that was driven and influenced by music, but without be
 
 So, we decided an infinite-runner-esque game would probably be a pretty solid choice, especially for a jam game, since we would be able to make it modular and scale to however many puzzles/tiles we were able to create. We brainstormed a few ideas for style and puzzles, and we were ready to jam!
 
+<figure>
+	<a href="../images/foxears/Jam2.png"><img src="../images/foxears/Jam2.png"></a>
+</figure>
+
 ### The Jam
 
 If you've never been to an on-site game jam, I really can't recommend it enough. Being surrounded by so many awesome people all being crazy productive is super contagious, and the energy there is fantastic. The three days all kind of blurs together, and you pretty much think about the game non-stop. 
 
-By the end of the first day, we had basic movement and our level generation system in place. By the end of the second day, we had beat detection, and a few tiles made, and most of the props in place. And by the end of the third day we had a playable (buggy) game! 
+By the end of the first day, we had basic movement and our level generation system in place. By the end of the second day, we had beat detection, and a few tiles made, and most of the props in place. And by the end of the third day we had a playable game! 
 
 ### The Game
 
@@ -40,6 +49,10 @@ As it currently stands, the game is a sort of action-platformer crossed with a r
 As you progress through the level, you encounter various puzzles and obstacles you must overcome. Most of these are designed with a musical element; blocks slide around to the beat of the music, switches must be pressed in time with each other and the music, etc., etc. Your character can also benefit from a good sense of rhythm; your usually short jump gains double the length when it's timed with the music, and if you perform two of these jumps in a row, you can execute a double jump.
 
 At the end of the song, a special tile spawns with a large flower, which is your goal. Our (temporary, forged late one night during the jam) story currently goes that everyone in your fox village has fallen ill, and the only thing that can save them is a plant that grows in the magical forest of the owls. When you go to them for help, however, they saw you must pass their test in order to retrieve the flower. 
+
+<figure>
+	<a href="../images/foxears/Jam3.png"><img src="../images/foxears/Jam3.png"></a>
+</figure>
 
 ### The Future
 
