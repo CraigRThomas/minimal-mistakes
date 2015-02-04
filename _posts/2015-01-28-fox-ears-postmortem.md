@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Fox Ears Postmortem (GGJ15)"
+title: "Fox Ears - Postmortem (GGJ15)"
 excerpt: "My account of our Global Game Jam 15 game, Fox Ears."
 tags: [ggj15, ggj, game, jam, fox, ears, postmortem]
 image:
-  feature: FoxEarsBanner.png
+  feature: foxears/FoxEarsBanner.png
 date: 2015-01-28T16:18:13-05:00
 ---
 
