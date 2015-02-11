@@ -1,0 +1,6 @@
+
+.navbar-fixed { position:fixed; top:0px; margin:auto; z-index:100000; width:100%; background-color:#ffffff; }
+.navbar-fixed hr { margin-top:10px; margin-bottom:0px; }
+.navbar-fixed h3 { margin-top:10px; margin-bottom:0px; }
+#top-link { display:none; }
+.navbar-fixed #top-link { display:inline; }
