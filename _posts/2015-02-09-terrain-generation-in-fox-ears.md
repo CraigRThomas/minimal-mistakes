@@ -198,6 +198,8 @@ protected virtual void GenerateOffsets(bool resetVertices = true) {
 
 The first thing we do here is generate a random offset per vertex. We do this so every face that shares the same vertex gets the same offset for that vertex, otherwise we'd have seams all over our geometry. This basic plane generates completely random offsets (within the defined range), but this could obviously be reworked to create more interesting patterns. 
 
+We also force the offset to be zero if the **z** value is **0** or **lengthInVerts-1**, so our planes will have flat edges and will fit together seamlessly. This could be adapted to work along the x-axis, or at heights other than 0.
+
 Once we've generated these offsets, we iterate through each vertex and apply the offset. The **resetVertices** flag is there so we can hook this function up to our editor script, and regenerate the offsets without regenerating the whole mesh, or so we can apply multiple iterations of the offset function. We use each vertex's UV values to figure out the indices to the offset array, since the UV values will be the same no matter which face the vertex belongs to.
 
 ### Generating The Normals
