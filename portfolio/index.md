@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 tags: [programming, unity, 3d, shaders, portfolio, hire, work]
 image:
-  feature: FoxEarsBanner.png
+  feature: foxears/FoxEarsBanner.png
 share: false
 ---
 
