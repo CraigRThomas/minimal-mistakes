@@ -311,3 +311,5 @@ First, we get the target object and cast it as our LowPolyPlane, and we initiali
 Now when we select a LowPolyPlane in our scene, its inspector will show a "Create Plane" button which we can click to generate a new mesh with the most recent settings we've set.
 
 In an upcoming blog post, we'll cover some of the more interesting terrain types we've created, to show what can be built on this base. If you have any questions/comments/cool things you've made with this, hit me up on Twitter <a href="http://www.twitter.com/craigrthomas">@CraigRThomas</a>.
+
+**Update (17/02/2015):** The next blog post can be found <a href="../generating-different-terrain-types/">here</a>.
